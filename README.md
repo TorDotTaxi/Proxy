@@ -1,2 +1,10 @@
-# Proxy
-This Chrome extension allows you to manage proxy settings based on the current URL of the active tab. It automatically detects the proxy parameter in the URL and sets or disables the proxy accordingly.
+## Proxy Authentication Extension
+- Chrome extension that automatically sets up proxy and authentication from URL parameters.
+
+## Features
+- Automatically configure proxy settings from URL parameters
+- Support proxy authentication with username and password
+- Disable proxy when accessing URL with parameter proxy=off
+## How to use
+- Access URL with proxy parameter in format: about:blank?proxy=host:port:username:password
+- To disable proxy, access URL with parameter: about:blank?proxy=off
